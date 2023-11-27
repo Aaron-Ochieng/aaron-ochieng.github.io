@@ -1,0 +1,40 @@
+@tailwind  base;
+@tailwind components;
+@tailwind  utilities;
+
+
+@font-face {
+    font-family: "Allura-Regular";
+    src:url('./dist/fonts/webfonts_Allura-Regular/Allura-Regular.ttf.woff') format('woff'),
+        url('./dist/fonts/webfonts_Allura-Regular/Allura-Regular.ttf.svg#Allura-Regular') format('svg'),
+        url('./dist/fonts/webfonts_Allura-Regular/Allura-Regular.ttf.eot'),
+        url('./dist/fonts/webfonts_Allura-Regular/Allura-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Scriptina-Regular';
+    src:url('./dist/fonts/webfonts_Scriptina/Scriptina.ttf.woff') format('woff'),
+        url('./dist/fonts/webfonts_Scriptina/Scriptina.ttf.svg') format('svg'),
+        url('./dist/fonts/webfonts_Scriptina/Scriptina.ttf.eot'),
+        url('./dist/fonts/webfonts_Scriptina/Scriptina.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times-New-Roman';
+
+    src: url('./dist/fonts/Times_New_Roman.ttf') format('ttf');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+.is-active{
+    border: 2px solid rgb(107, 114, 128) !important;
+}
+.allura{
+    font-family: allura;
+}
+

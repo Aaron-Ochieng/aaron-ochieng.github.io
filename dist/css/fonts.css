@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Allura-Regular";
+
+    src: url('../fonts/webfonts_Allura-Regular/Allura-Regular.ttf.woff') format('woff'),
+        url('../fonts/webfonts_Allura-Regular/Allura-Regular.ttf.svg#Allura-Regular') format('svg'),
+        url('../fonts/webfonts_Allura-Regular/Allura-Regular.ttf.eot'),
+        url('../fonts/webfonts_Allura-Regular/Allura-Regular.ttf.eot?#iefix') format('embedded-opentype');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Scriptina-Regular';
+
+    src: url('../fonts/webfonts_Scriptina/Scriptina.ttf.woff') format('woff'),
+        url('../dist/fonts/webfonts_Scriptina/Scriptina.ttf.svg') format('svg'),
+        url('../fonts/webfonts_Scriptina/Scriptina.ttf.eot'),
+        url('../fonts/webfonts_Scriptina/Scriptina.ttf.eot?#iefix') format('embedded-opentype');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times-New-Roman';
+
+    src: url('../fonts/Times_New_Roman.ttf') format('ttf');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+.allura {
+    font-family: 'Allura-Regular';
+}
+
+.scriptina {
+    font-family: 'Scriptina-Regular';
+}
+.times {
+    font-family: 'Times-New-Roman';
+}
